@@ -1,4 +1,4 @@
-Try it here: https://github.com/TechnicalDeveloper/Lagoona.git/
+Try it here: https://technicaldeveloper.github.io/Lagoona/
 
 Верстка макета-"Lagoona" с использованием HTML и CSS
 
