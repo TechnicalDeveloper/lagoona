@@ -1,5 +1,4 @@
-Try it here: <a href="[https://www.thesitewizard.com/](https://technicaldeveloper.github.io/Lagoona/
-)" target="_blank">Click to check out</a> 
+Try it here: <a href="https://www.thesitewizard.com/](https://technicaldeveloper.github.io/Lagoona/" target="_blank">Click to check out</a> 
 
 Верстка макета-"Lagoona" с использованием HTML и CSS
 
