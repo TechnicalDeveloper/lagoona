@@ -40,7 +40,7 @@
 
 body {
   font-family: 'Muller', sans-serif;
-  background-color: #E5E5E5FF;
+  background-color: var(--grey-color);
 }
 
 h2, h3 {
@@ -83,7 +83,7 @@ a {
   font-weight: 400;
   font-size: 40px;
   line-height: 40px;
-  color: #333333FF;
+  color: var(--black-color);
 }
 
 .site-btn {
@@ -91,32 +91,31 @@ a {
   cursor: pointer;
   transition: background-color .3s ease-in-out, color .3s ease-in-out;
   background-color: transparent;
-  border: 1px solid #CC9933FF;
-  color: #CC9933FF;
+  border: 1px solid var(--orange-color);
+  color: var(--orange-color);
   border-radius: 10px;
 }
 
 .site-btn:hover {
   transition: background-color .3s ease-in-out, color .3s ease-in-out;
-  color: #000000FF;
-  background-color: #CC9933FF;
+  color: var(--dark-black);
+  background-color: var(--orange-color);
 }
 
 .site-link {
   transition: color .3s ease-in-out;
-  color: #CC9933FF;
+  color: var(--orange-color);
 }
 
 .site-link:hover {
   transition: color .3s ease-in-out;
-  color: #000000FF;
+  color: var(--dark-black);
 }
 
 .container {
   min-width: 1200px;
   margin: 0 auto;
-  padding: 30px 375px 0 375px;
-
+  padding: 30px 290px;
 }
 
 /* header */
@@ -142,7 +141,7 @@ a {
   font-weight: 500;
   font-size: 20px;
   line-height: 20px;
-  color: #666666FF;
+  color: var(--dark-grey);
 }
 
 .header__login {
@@ -157,7 +156,7 @@ a {
   justify-content: space-between;
   padding: 12px 45px;
   border-radius: 15px;
-  background-color: #FFFFFFFF;
+  background-color: var(--white-color);
 }
 
 .nav__list {
@@ -172,16 +171,16 @@ a {
 
 .nav__link {
   transition: color .3s ease-in-out;
-  color: #666666FF;
+  color: var(--dark-grey);
 }
 
 .nav__link:hover {
   transition: color .3s ease-in-out;
-  color: #CC9933FF;
+  color: var(--orange-color);
 }
 
 .header__inner {
-  border-left: 1px solid #E1E1E1FF;
+  border-left: 1px solid var(--lighty-grey);
   padding-left: 57px;
 }
 
@@ -219,35 +218,35 @@ a {
   padding: 214px 215px 35px 39px;
 }
 
-.special-content__left .special-article {
+.special-content__left > .special-article {
   height: 258px;
   padding: 42px 240px 40px 40px;
 }
 
-.special-content__left .special-article:first-child {
+.special-content__left > .special-article:first-child {
   margin-bottom: 23px;
 }
 
-.special-content__left .special-article .special-article__title {
+.special-content__left > .special-article .special-article__title {
   font-weight: 700;
   font-size: 40px;
   line-height: 40px;
-  color: #FFFFFFFF;
+  color: var(--white-color);
   margin-bottom: 14px;
 }
 
-.special-content__right .special-article .special-article__title {
+.special-content__right > .special-article .special-article__title {
   font-weight: 700;
   font-size: 60px;
   line-height: 60px;
-  color: #FFFFFFFF;
+  color: var(--white-color);
   margin-bottom: 12px;
 }
 
 .special-article__price {
   display: block;
   font-size: 20px;
-  color: #FFFFFFFF;
+  color: var(--white-color);
   opacity: 0.8;
   margin-bottom: 43px;
 }
@@ -255,7 +254,7 @@ a {
 .special-article__price--right {
   display: block;
   font-size: 30px;
-  color: #FFFFFFFF;
+  color: var(--white-color);
   opacity: 0.8;
   margin-bottom: 43px;
 }
@@ -282,7 +281,7 @@ a {
   font-size: 16px;
   max-width: 888px;
   line-height: 200%;
-  color: #000000FF;
+  color: var(--dark-black);
   margin-top: 11px;
 }
 
@@ -310,7 +309,7 @@ a {
   border-radius: 15px;
   background-repeat: no-repeat;
   background-position: top center;
-  background-color: #FFFFFFFF;
+  background-color: var(--white-color);
 }
 
 .service__item:nth-child(-n+2) {
@@ -326,14 +325,14 @@ a {
   background-repeat: no-repeat;
   background-position: right center;
   padding-right: 18px;
-  color: #CC9933FF;
+  color: var(--orange-color);
 }
 
 .service__descr {
   margin: 0;
   max-width: 402px;
   line-height: 32px;
-  color: #000000FF;
+  color: var(--dark-black);
 }
 
 /* advantages */
@@ -359,7 +358,7 @@ a {
   border-radius: 15px;
   background-repeat: no-repeat;
   background-position:  20% 20%;
-  background-color: #FFFFFFFF;
+  background-color: var(--white-color);
 }
 
 .advantages__item:nth-child(-n+4) {
@@ -392,7 +391,7 @@ a {
   height: 440px;
   overflow: hidden;
   border-radius: 15px;
-  background-color: #FFFFFFFF;
+  background-color: var(--white-color);
 }
 
 .accommodation__item {
@@ -425,7 +424,7 @@ a {
   font-weight: 400;
   margin-bottom: 16px;
   font-size: 16px;
-  color: #000000FF
+  color: var(--dark-black)
 }
 
 .accommodation-article__descr {
@@ -449,7 +448,7 @@ a {
   font-weight: 500;
   font-size: 20px;
   padding-right: 18px;
-  color: #FFFFFFFF;
+  color: var(--white-color);
   background-image: url("../image/svg/arrow2.svg");
   background-position: right center;
   background-repeat: no-repeat;
@@ -487,7 +486,7 @@ a {
   padding: 32px 28px;
   display: flex;
   border-radius: 15px;
-  background-color: #FFFFFFFF;
+  background-color: var(--white-color);
 }
 
 .form__label {
@@ -498,7 +497,7 @@ a {
 }
 
 .form__label:not(:first-child) {
-  border-left: 1px solid #FFFFFFFF;
+  border-left: 1px solid var(--lighty-grey);
 }
 
 .form__label:not(:first-child) {
@@ -506,8 +505,8 @@ a {
 }
 
 .form__label:nth-child(5) {
-  border-left: 1px solid #FFFFFFFF;
-  border-right: 1px solid #FFFFFFFF;
+  border-left: 1px solid var(--lighty-grey);
+  border-right: 1px solid var(--lighty-grey);
 }
 
 select {
@@ -549,7 +548,7 @@ select:first-child {
   background-image: url(../image/jpg/footer-bg.jpg);
   background-repeat: no-repeat;
   background-position: 91% center;
-  background-color: #FFFFFFFF;
+  background-color: var(--white-color);
 }
 
 .contacts__list {
@@ -560,7 +559,7 @@ select:first-child {
   padding-bottom: 23px;
   margin-bottom: 25px;
   line-height: 24px;
-  border-bottom: 1px solid #FFFFFFFF;
+  border-bottom: 1px solid var(--lighty-grey);
   display: flex;
   justify-content: space-between;
 }
@@ -597,13 +596,13 @@ select:first-child {
   display: flex;
   padding: 44px 52px;
   margin-bottom: 20px;
-  color: #FFFFFFFF;
+  color: var(--white-color);
   line-height: 30px;
   border-radius: 15px;
   background-image: url(../image/svg/bg.svg);
   background-repeat: no-repeat;
   background-position: 81% 100%;
-  background-color: #333333FF;
+  background-color: var(--black-color);
 }
 
 .footer__copyright {
