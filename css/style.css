@@ -209,7 +209,7 @@ img, svg {
 
 .special-content__left, .special-content__right {
   width: 49%;
-  height: 540px;
+  min-height: 540px;
 }
 
 .special-content__left .special-article {
