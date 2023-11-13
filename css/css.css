@@ -1,0 +1,59 @@
+.img-maldiv {
+    background-image: url("../image/jpg/255.jpg");
+}
+
+.img-krit {
+    background-image: url('../image/jpg/234.jpg');
+}
+
+.img-luks {
+    background-image: url('../image/jpg/331.jpg');
+}
+
+.img-exclusive {
+    background-image: url('../image/jpg/10.jpg');
+}
+
+.img-zalov {
+    background-image: url('../image/jpg/15.jpg');
+}
+
+.img-swimming {
+    background-image: url('../image/jpg/12.jpg');
+}
+
+.img-cars {
+    background-image: url('../image/jpg/233.jpg');
+}
+
+.img-bath {
+    background-image: url(../image/svg/bathtub.svg);
+}
+
+.img-hander {
+    background-image: url(../image/svg/hanger.svg);
+}
+
+.img-heating {
+    background-image: url(../image/svg/heating.svg);
+}
+
+.img-key {
+    background-image: url(../image/svg/hotel-key.svg);
+}
+
+.img-parking {
+    background-image: url(../image/svg/parking.svg);
+}
+
+.img-reception {
+    background-image: url(../image/svg/reception.svg);
+}
+
+.img-safe {
+    background-image: url(../image/svg/security-box.svg);
+}
+
+.img-pool {
+    background-image: url(../image/svg/swimming-pool.svg);
+}
