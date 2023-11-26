@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Lagoona I Сеть отелей</title>
-  <link rel="icon" type="image/x-icon" href="image/svg/favicon.svg">
+  <link rel="icon" type="image/x-icon" href="favicon.svg">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
@@ -15,7 +15,12 @@
     <div class="header__top">
       <img src="image/svg/logo.svg" alt="logotype" class="logo">
       <a href="tel:+74953225448" class="header__number">+7 495 322 54 48</a>
-      <a href="#" class="header__login site-link">Личный кабинет</a>
+      <a href="#" class="header__login site-link">
+        <svg width="21" height="12" viewBox="0 0 21 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M10.59 1.41L14.17 5H0V7H14.17L10.58 10.59L12 12L18 6L12 0L10.59 1.41ZM19 0V12H21V0H19Z" fill="#CC9933"/>
+      </svg>
+        <span class="header__login_text">Личный кабинет</span>
+      </a>
     </div>
     <div class="header__bottom">
       <nav class="nav">
@@ -108,17 +113,21 @@
         <li class="service__item img-exclusive">
           <h3 class="service__title">
             <a href="#" class="service__link site-link">
-              Эксклюзивное обслуживание
+              <span>Эксклюзивное обслуживание</span>
+              <svg class="service__link-svg" width="11" height="18" viewBox="0 0 11 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1.49998 1.00002L9.27815 8.7782L1.49998 16.5564" stroke="#FFCC66" stroke-width="2"/>
+              </svg>
             </a>
           </h3>
-          <p class="service__descr">
-            Равным образом постоянный количественный рост и&nbsp;сфера нашей активности
-          </p>
+          <p class="service__descr">Равным образом постоянный количественный рост и&nbsp;сфера нашей активности</p>
         </li>
         <li class="service__item img-zalov">
           <h3 class="service__title">
             <a href="#" class="service__link site-link">
-              Аренда банкетных залов
+              <span>Аренда банкетных залов</span>
+              <svg class="service__link-svg" width="11" height="18" viewBox="0 0 11 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1.49998 1.00002L9.27815 8.7782L1.49998 16.5564" stroke="#FFCC66" stroke-width="2"/>
+              </svg>
             </a>
           </h3>
           <p class="service__descr">
@@ -128,7 +137,10 @@
         <li class="service__item img-swimming">
           <h3 class="service__title">
             <a href="#" class="service__link site-link">
-              Сауны, бассейны, бани, фитнес-залы
+              <span>Сауны, бассейны, бани, фитнес-залы</span>
+              <svg class="service__link-svg" width="11" height="18" viewBox="0 0 11 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1.49998 1.00002L9.27815 8.7782L1.49998 16.5564" stroke="#FFCC66" stroke-width="2"/>
+              </svg>
             </a>
           </h3>
           <p class="service__descr">
@@ -138,7 +150,10 @@
         <li class="service__item img-cars">
           <h3 class="service__title">
             <a href="#" class="service__link site-link">
-              Охраняемые автомобильные стоянки
+              <span>Охраняемые автомобильные стоянки</span>
+              <svg class="service__link-svg" width="11" height="18" viewBox="0 0 11 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1.49998 1.00002L9.27815 8.7782L1.49998 16.5564" stroke="#FFCC66" stroke-width="2"/>
+              </svg>
             </a>
           </h3>
           <p class="service__descr">
@@ -492,9 +507,9 @@
               <li class="contacts__item">
                 <strong class="contacts__title">E-mail</strong>
                 <div class="contacts__wrapper">
-                    <a class="site-link" href="mailto:lg.oona@mail.ru">lg.oona@mail.ru</a>
+                    <a class="contacts__number site-link" href="mailto:lg.oona@mail.ru">lg.oona@mail.ru</a>
                   <span>по вопросам бронирования</span>
-                    <a class="site-link" href="mailto:hotels.ln@mail.ru">hotels.ln@mail.ru</a>
+                    <a class="contacts__number site-link" href="mailto:hotels.ln@mail.ru">hotels.ln@mail.ru</a>
                   <span>по вопросам сотрудничества</span>
                 </div>
               </li>
@@ -521,22 +536,22 @@
       <div class="footer__copyright">
         <p class="copyright__text">© 2012-2020 Управляющая компания Объединенной сети «Лагуна Хотелс»</p>
         <p class="copyright__text">Представленная на сайте информация носит справочный характер и не является публичной офертой</p>
-        <a class="site-link" href="#">Пользовательское соглашение</a>
+        <a class="footer-list-link site-link" href="#">Пользовательское соглашение</a>
       </div>
       <address class="footer-address">
         <p class="footer-address__text">
           11710, улица Юности, дом 5 строение 4, офис 2
         </p>
         <ul class="footer__address-inside">
-          <li class="footer__decoration"><a href="tel:+74995356434" class="site-link ">+7 499 535-64-34</a></li>
-          <li class="footer__decoration footer__space"><a href="tel:+74995356434" class="site-link">+7 495 005-05-44</a></li>
-          <li class="footer__decoration"><a href="mailto:hotels.ln@mail.ru" class="site-link">lg.oona@mail.ru</a></li>
-          <li class="footer__decoration"><a href="mailto:hotels.ln@mail.ru" class="site-link">hotels.ln@mail.ru</a></li>
+          <li class="footer__decoration"><a href="tel:+74995356434" class="footer-list-link site-link ">+7 499 535-64-34</a></li>
+          <li class="footer__decoration footer__space"><a href="tel:+74995356434" class="footer-list-link site-link">+7 495 005-05-44</a></li>
+          <li class="footer__decoration"><a href="mailto:hotels.ln@mail.ru" class="footer-list-link site-link">lg.oona@mail.ru</a></li>
+          <li class="footer__decoration"><a href="mailto:hotels.ln@mail.ru" class="footer-list-link site-link">hotels.ln@mail.ru</a></li>
         </ul>
       </address>
         <ul class="footer-social">
           <li class="footer__img-one">
-            <a href="#" class="social__link">
+            <a href="#" class="footer-social__links social__link">
               <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M17.1779 11.7844C16.3343 11.7844 15.6441 12.449 15.6441 13.2926C15.6441 14.1362 16.3343 14.8263 17.1523 14.8263C17.9959 14.8263 18.6605 14.1362 18.6605 13.3182C18.6861 12.449 18.0214 11.7844 17.1779 11.7844ZM17.1779 14.0595C16.7433 14.0595 16.411 13.7272 16.411 13.2926C16.411 12.858 16.7433 12.5257 17.1779 12.5257C17.6124 12.5257 17.9447 12.8836 17.9447 13.2926C17.9447 13.7272 17.5869 14.0595 17.1779 14.0595Z" fill="#999999"/>
                 <path d="M7.7965 9.58598C5.77707 9.56042 4.01327 11.2475 4.06439 13.3948C4.08996 15.3886 5.75151 17.1013 7.84762 17.0757C9.89261 17.0502 11.5542 15.3886 11.5542 13.3436C11.5542 11.2731 9.89261 9.58598 7.7965 9.58598ZM7.84762 15.6187C6.49282 15.6698 5.39364 14.5962 5.39364 13.2925C5.39364 11.9633 6.49282 10.9408 7.71981 10.9663C8.99793 10.9663 10.046 11.9888 10.046 13.2925C10.0715 14.5962 9.04905 15.5676 7.84762 15.6187Z" fill="#999999"/>
@@ -553,7 +568,7 @@
             </a>
           </li>
           <li class="footer__img-two">
-            <a href="#" class="social__link">
+            <a href="#" class="footer-social__links social__link">
               <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M10.7106 8.32552C10.7106 9.35607 11.546 10.1916 12.5766 10.1916C13.6071 10.1916 14.4426 9.35607 14.4426 8.32552C14.4426 7.29496 13.6071 6.4595 12.5766 6.4595C11.546 6.4595 10.7106 7.29496 10.7106 8.32552Z" fill="#999999"/>
                 <path fill-rule="evenodd" clip-rule="evenodd" d="M12.5 25C19.4036 25 25 19.4036 25 12.5C25 5.59644 19.4036 0 12.5 0C5.59644 0 0 5.59644 0 12.5C0 19.4036 5.59644 25 12.5 25ZM8.06251 8.32546C8.06251 5.83243 10.0835 3.81137 12.5766 3.81137C15.0697 3.81137 17.0907 5.83243 17.0907 8.32546C17.0907 10.8185 15.0697 12.8397 12.5766 12.8397C10.0835 12.8397 8.06251 10.8185 8.06251 8.32546ZM17.1176 15.1617C17.0604 15.2076 15.9774 16.0634 14.1702 16.4316L16.8981 19.1351C17.3778 19.6141 17.3784 20.3912 16.8994 20.8709C16.4205 21.3506 15.6435 21.3514 15.1636 20.8723L12.5153 18.2933L10.1099 20.8557C9.86912 21.1055 9.54789 21.2311 9.22631 21.2311C8.91959 21.2311 8.61261 21.117 8.37443 20.8873C7.88644 20.4168 7.8723 19.6398 8.34283 19.1518L10.932 16.4459C9.07424 16.0864 7.94659 15.2083 7.88852 15.1617C7.3597 14.7376 7.27476 13.9651 7.69885 13.4362C8.12288 12.9074 8.8953 12.8225 9.42424 13.2465C9.4354 13.2556 10.6149 14.1416 12.5153 14.1429C14.4157 14.1416 15.5707 13.2556 15.5819 13.2465C16.1109 12.8225 16.8833 12.9074 17.3073 13.4362C17.7314 13.9651 17.6464 14.7376 17.1176 15.1617Z" fill="#999999"/>
@@ -561,7 +576,7 @@
             </a>
           </li>
           <li>
-            <a href="#" class="social__link">
+            <a href="#" class="footer-social__links social__link">
               <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M12.5 0C5.59815 0 0 5.59815 0 12.5C0 19.4018 5.59815 25 12.5 25C19.4018 25 25 19.4018 25 12.5C25 5.59815 19.4018 0 12.5 0ZM18.8394 13.8548C19.4274 14.4172 20.0409 14.954 20.5521 15.593C20.7822 15.8742 21.0122 16.1554 21.1656 16.4877C21.3957 16.9478 21.1912 17.4591 20.7822 17.4846H18.226C17.5613 17.5358 17.0501 17.2801 16.59 16.82C16.2321 16.4622 15.8998 16.0787 15.5675 15.6953C15.4397 15.5419 15.2863 15.3885 15.1073 15.2863C14.7495 15.0562 14.4427 15.1329 14.2638 15.4908C14.0593 15.8742 14.0082 16.2832 13.9826 16.6922C13.957 17.3057 13.7781 17.4591 13.1646 17.4846C11.8609 17.5358 10.6339 17.3568 9.50919 16.6922C8.51226 16.1043 7.71983 15.3118 7.05521 14.3916C5.72597 12.6022 4.72903 10.6339 3.80879 8.61451C3.60429 8.15439 3.75767 7.92433 4.26891 7.89876C5.11247 7.8732 5.93046 7.8732 6.77402 7.89876C7.10633 7.89876 7.33639 8.10326 7.46421 8.41001C7.92433 9.50919 8.46114 10.5828 9.15132 11.5542C9.33026 11.8098 9.53475 12.0654 9.79038 12.2699C10.0971 12.4744 10.3016 12.3977 10.455 12.0654C10.5317 11.8609 10.5828 11.6309 10.6084 11.4008C10.6851 10.6339 10.6851 9.86707 10.5572 9.10019C10.4806 8.58895 10.2249 8.2822 9.73925 8.17995C9.48363 8.12883 9.53476 8.05214 9.637 7.89876C9.8415 7.6687 10.046 7.51533 10.4294 7.51533H13.318C13.7781 7.61758 13.8804 7.79652 13.9315 8.25664V11.4775C13.9315 11.6564 14.0082 12.1932 14.3405 12.2955C14.5961 12.3722 14.775 12.1677 14.9284 12.0143C15.6186 11.273 16.1043 10.4039 16.5644 9.50919C16.7689 9.10019 16.9223 8.6912 17.1012 8.2822C17.229 7.97545 17.408 7.82208 17.7658 7.82208H20.5521C20.6288 7.82208 20.7055 7.82208 20.8078 7.84764C21.2679 7.92433 21.3957 8.12883 21.2679 8.58895C21.0378 9.30469 20.6033 9.91819 20.1687 10.5061C19.7086 11.1452 19.1973 11.7587 18.7372 12.4233C18.2771 13.0368 18.3026 13.3435 18.8394 13.8548Z" fill="#999999"/>
                 <defs>

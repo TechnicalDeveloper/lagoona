@@ -1,13 +1,13 @@
 .img-maldiv {
-    background-image: url("../image/jpg/255.jpg");
+  background-image: linear-gradient(90deg, rgba(48, 64, 89, 0.84) -2.9%, rgba(53, 65, 83, 0.00) 65.7%), url("../image/jpg/255.jpg");
 }
 
 .img-krit {
-    background-image: url('../image/jpg/234.jpg');
+  background-image: linear-gradient(90deg, rgba(48, 64, 89, 0.84) -2.9%, rgba(53, 65, 83, 0.00) 65.7%), url('../image/jpg/234.jpg');
 }
 
 .img-luks {
-    background-image: url('../image/jpg/331.jpg');
+  background-image: linear-gradient(0, rgba(48, 64, 89, 0.84) -2.9%, rgba(53, 65, 83, 0.00) 65.7%), url('../image/jpg/331.jpg');
 }
 
 .img-exclusive {
